@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/faq.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid Serif' rel='stylesheet'>
+    <script src="jquery.js"></script>
+    <script src="themetoggle.js"></script>
+    <script src="nav.js"></script>
+    
+    <title>TRAVELPLANET - Frequently Asked Questions</title>
+</head>
+<body>
+
+<!-- NAV SECTION -->
+ 
+<header>
+    <div class="navbar">
+        <div class="nav-content">
+            <div class="logo"><img src="/Images/logo.png"></div>
+
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="blog.html">Travel Blog</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a class="active" href="faq.html">FAQ's</a></li>
+                <li class="contact-btn"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    
+        <main class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Categories</button>
+                <button class="category-tab" data-category="booking">Booking Process</button>
+                <button class="category-tab" data-category="packages">Travel Packages</button>
+                <button class="category-tab" data-category="payment">Payment & Pricing</button>
+                <button class="category-tab" data-category="travel">Travel Information</button>
+            </div>
+    
+            <div class="faq-container" id="faqContainer">
+                <!-- Booking Process FAQs -->
+                <div class="faq-category active" data-category="booking">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How do I book a holiday package with TRAVELPLANET?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Our booking process is personalised to ensure you get the perfect holiday experience:</p>
+                                <ol>
+                                    <li>Browse our destination packages on the website</li>
+                                    <li>Contact us with your preferred destination, dates, and any specific requirements</li>
+                                    <li>Our travel consultants will prepare a tailored quote for you</li>
+                                    <li>Once you're happy with the proposal, we'll guide you through the payment process</li>
+                                    <li>After payment, you'll receive all your travel documents via email</li>
+                                </ol>
+                                <p>We pride ourselves on crafting bespoke travel experiences rather than offering generic online bookings.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Can I customise my travel package?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Absolutely! Customisation is what makes TRAVELPLANET special. When you contact us with your preferred package, you can request modifications such as:</p>
+                                <ul>
+                                    <li>Upgrading accommodation</li>
+                                    <li>Adding excursions or activities</li>
+                                    <li>Extending your stay</li>
+                                    <li>Combining multiple destinations</li>
+                                    <li>Special dietary requirements</li>
+                                    <li>Accessibility needs</li>
+                                </ul>
+                                <p>Our travel experts will work with you to create your perfect holiday experience.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How far in advance should I book my holiday?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>For the best availability and prices, we recommend booking:</p>
+                                <ul>
+                                    <li>At least 6 months in advance for peak season travel (school holidays, Christmas, New Year)</li>
+                                    <li>3-4 months in advance for off-peak travel</li>
+                                    <li>8-12 months for special events or unique experiences</li>
+                                </ul>
+                                <p>That said, we do understand that spontaneous trips can be exciting! We'll always do our best to accommodate last-minute bookings, though choices may be more limited and prices might be higher.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What happens after I request a quote?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>After you've requested a quote:</p>
+                                <ol>
+                                    <li>One of our travel consultants will contact you within 24 hours (during business days)</li>
+                                    <li>We'll discuss your requirements in detail to ensure we understand your preferences</li>
+                                    <li>Within 2-3 business days, we'll email you a detailed proposal with pricing</li>
+                                    <li>The quote will be valid for 7 days, giving you time to consider the offer</li>
+                                    <li>If you'd like any adjustments, we'll revise the quote accordingly</li>
+                                    <li>Once you're satisfied, we'll provide instructions for securing your booking</li>
+                                </ol>
+                                <p>Our aim is to make this process as smooth and enjoyable as the holiday itself!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Travel Packages FAQs -->
+                <div class="faq-category" data-category="packages">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What's typically included in your travel packages?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Our standard packages generally include:</p>
+                                <ul>
+                                    <li>Return flights from your chosen UK airport</li>
+                                    <li>Accommodation as specified</li>
+                                    <li>Airport transfers at your destination</li>
+                                    <li>A selection of excursions (varies by package)</li>
+                                    <li>Travel insurance options</li>
+                                    <li>24/7 emergency contact service</li>
+                                    <li>ATOL protection for your peace of mind</li>
+                                </ul>
+                                <p>Specific inclusions will be clearly detailed in your personalised quote. We're also happy to add or remove elements to suit your preferences.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you offer family-friendly holiday packages?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes! We specialise in creating memorable family holidays. Our family packages typically feature:</p>
+                                <ul>
+                                    <li>Accommodation with family rooms or connecting options</li>
+                                    <li>Properties with child-friendly facilities (pools, play areas, kids' clubs)</li>
+                                    <li>Activities suitable for different age groups</li>
+                                    <li>Recommendations for family-friendly restaurants and attractions</li>
+                                    <li>Thoughtful logistics to minimise stress when travelling with children</li>
+                                </ul>
+                                <p>When you contact us, please let us know the ages of your children so we can tailor recommendations accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Can you arrange special occasion trips?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Absolutely! We love helping clients celebrate special moments. We regularly arrange:</p>
+                                <ul>
+                                    <li>Honeymoons and romantic getaways</li>
+                                    <li>Milestone birthdays and anniversaries</li>
+                                    <li>Proposal trips</li>
+                                    <li>Retirement celebrations</li>
+                                    <li>Family reunions</li>
+                                </ul>
+                                <p>We can add thoughtful touches like room decorations, champagne on arrival, special dining experiences, or unique activities to commemorate your occasion. Please mention your special event when requesting a quote, and we'll suggest appropriate extras to make it unforgettable.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you offer group travel packages?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, we specialise in arranging travel for groups of all sizes. Whether you're planning:</p>
+                                <ul>
+                                    <li>A friends' getaway</li>
+                                    <li>Extended family holiday</li>
+                                    <li>Corporate retreat</li>
+                                    <li>Special interest tour</li>
+                                    <li>Sporting event trip</li>
+                                </ul>
+                                <p>We can handle the complexities of group bookings, including coordinating multiple departure points, arranging group activities, and securing the best group rates. For groups of 10 or more, we may be able to offer additional discounts or complimentary upgrades. Please contact us with your group requirements for a tailored proposal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Payment & Pricing FAQs -->
+                <div class="faq-category" data-category="payment">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What payment methods do you accept?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We offer several secure payment options:</p>
+                                <ul>
+                                    <li>Credit and debit cards (Visa, Mastercard, American Express)</li>
+                                    <li>Bank transfers</li>
+                                    <li>Cheques (must clear before travel documents are issued)</li>
+                                </ul>
+                                <p>For security reasons, we do not accept cash payments or cryptocurrency. All payments are processed through our secure payment gateway with encryption for your protection.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do I need to pay the full amount upfront?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>No, we understand that holidays represent a significant investment. Our standard payment schedule is:</p>
+                                <ul>
+                                    <li>A deposit of 25% to secure your booking</li>
+                                    <li>The remaining balance due 10 weeks before departure</li>
+                                </ul>
+                                <p>For bookings made less than 10 weeks before departure, full payment is required at the time of booking. For certain special promotions or during peak booking periods, different terms may apply, which will be clearly communicated in your quote.</p>
+                                <p>We can sometimes arrange flexible payment plans for higher-value bookings - please ask your travel consultant about this option if it would be helpful.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Are there any hidden costs I should be aware of?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We pride ourselves on transparency in our pricing. Your quote will clearly outline everything that's included and not included. That said, there are some common additional costs to consider:</p>
+                                <ul>
+                                    <li>Optional travel insurance (though we strongly recommend this)</li>
+                                    <li>Visa fees where applicable</li>
+                                    <li>Tourist taxes that must be paid locally at your accommodation</li>
+                                    <li>Optional excursions or activities beyond those included in your package</li>
+                                    <li>Personal spending money for meals not included, souvenirs, etc.</li>
+                                    <li>Airport parking if required</li>
+                                </ul>
+                                <p>We'll always highlight these potential additional costs in your quote so you can budget accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What happens if I need to cancel my holiday?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>If you need to cancel your holiday, our cancellation policy typically applies as follows:</p>
+                                <ul>
+                                    <li>More than 70 days before departure: Loss of deposit only</li>
+                                    <li>69-43 days before departure: 40% of total holiday cost</li>
+                                    <li>42-29 days before departure: 60% of total holiday cost</li>
+                                    <li>28-15 days before departure: 80% of total holiday cost</li>
+                                    <li>14 days or less before departure: 100% of total holiday cost</li>
+                                </ul>
+                                <p>We strongly recommend comprehensive travel insurance that includes cancellation cover for a wide range of circumstances. This can protect you financially if you need to cancel for covered reasons.</p>
+                                <p>In certain circumstances, we may be able to offer a date change instead of cancellation, subject to availability and any price differences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Travel Information FAQs -->
+                <div class="faq-category" data-category="travel">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do I need a visa for my destination?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Visa requirements depend on:</p>
+                                <ul>
+                                    <li>Your nationality/passport</li>
+                                    <li>The destination country</li>
+                                    <li>Length and purpose of stay</li>
+                                </ul>
+                                <p>As part of our service, we'll provide general visa information for British citizens travelling to your chosen destination. However, visa requirements can change frequently, and it remains your responsibility to ensure you have the correct documentation.</p>
+                                <p>For the most up-to-date and official information, we recommend checking the Foreign, Commonwealth & Development Office (FCDO) website or the embassy/consulate of your destination country.</p>
+                                <p>If you hold a non-British passport, please inform us when booking so we can advise accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Is travel insurance necessary?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>While not mandatory for booking with us, we strongly recommend comprehensive travel insurance for all travellers. Good travel insurance should cover:</p>
+                                <ul>
+                                    <li>Medical emergencies and repatriation</li>
+                                    <li>Cancellation and curtailment</li>
+                                    <li>Personal belongings and baggage</li>
+                                    <li>Travel delays and missed departures</li>
+                                    <li>Personal liability</li>
+                                </ul>
+                                <p>We can offer suitable insurance policies as part of your booking, or you're welcome to arrange your own. If you choose your own insurance, please ensure it provides adequate coverage for your specific circumstances and activities planned during your trip.</p>
+                                <p>Remember that the GHIC/EHIC (Global/European Health Insurance Card) is not a substitute for travel insurance, as it only covers basic medical care in certain countries.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>When will I receive my travel documents?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We issue travel documents electronically via email approximately 2-3 weeks before your departure date, once full payment has been received. Your documents package will include:</p>
+                                <ul>
+                                    <li>E-tickets for flights</li>
+                                    <li>Accommodation vouchers</li>
+                                    <li>Transfer confirmations</li>
+                                    <li>Excursion vouchers</li>
+                                    <li>Travel insurance policy (if purchased through us)</li>
+                                    <li>Destination information and tips</li>
+                                    <li>Emergency contact details</li>
+                                </ul>
+                                <p>We recommend printing copies of all documents and carrying them with you, as well as saving electronic copies on your phone or tablet. If you prefer physical documents, please let your travel consultant know, and we can arrange for these to be posted to your address (additional charges may apply).</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you cater for travellers with accessibility needs?</span>
+                            <span class="icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, we're committed to making travel accessible for everyone. We can arrange:</p>
+                                <ul>
+                                    <li>Wheelchair-accessible accommodation</li>
+                                    <li>Ground floor rooms or properties with lift access</li>
+                                    <li>Special assistance at airports and on flights</li>
+                                    <li>Accessible transfers and transport</li>
+                                    <li>Equipment hire at your destination (subject to availability)</li>
+                                    <li>Information about accessibility at attractions and excursions</li>
+                                </ul>
+                                <p>Please provide detailed information about your specific needs when making your enquiry, so we can ensure your holiday meets your requirements. The more information you can share, the better we can tailor your experience.</p>
+                                <p>We recommend booking as early as possible, as accessible rooms and services can be limited at certain destinations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+<!-- FOOTER SECTION -->
+
+<footer>
+
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Destinations</h3>
+                <ul>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Asia</a></li>
+                    <li><a href="#">Africa</a></li>
+                    <li><a href="#">Americas</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Subscribe</h3>
+                <p>Join our newsletter for the latest travel deals and updates.</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="social-icon">
+                            <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon">
+                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="social-icon">
+                            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="social-icon">
+                            <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    
+    <script src="/faq.js"></script>
+
+</body>
+</html>
