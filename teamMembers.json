@@ -1,74 +1,74 @@
 [
-    {
-      "name": "Curtis Bennett",
-      "role": "Founder & CEO",
-      "image": "Images/teammember3.png",
-      "bio": "With over 15 years of experience in the travel industry, Curtis founded Travel Planet with a vision to change how people experience the world.",
-      "quote": "Travel is the only thing you buy that makes you richer.",
-      "social": {
-        "twitter": "https://www.twitter.com",
-        "linkedin": "#",
-        "instagram": "#"
-      }
-    },
-    {
-      "name": "Lewis Sanders",
-      "role": "Head of Destinations",
-      "image": "Images/teammember4.png",
-      "bio": "Lewis has visited over 50 countries and brings his extensive knowledge of global destinations to curate our unique travel experiences.",
-      "quote": "The world is a book and those who do not travel read only one page.",
-      "social": {
-        "twitter": "#",
-        "linkedin": "#",
-        "instagram": "#"
-      }
-    },
-    {
-      "name": "Daniel Harrison",
-      "role": "Head Of Operations",
-      "image": "Images/teammember5.png",
-      "bio": "Daniel ensures that every Travel Planet trip runs smoothly, from logistics to customer experience. His expertise in hospitality management helps create stress-free journeys for travelers.",
-      "quote": "The best trips are the ones where you forget about time and just live in the moment.",
-      "social": {
-        "twitter": "#",
-        "linkedin": "#",
-        "instagram": "#"
-      }
-    },
-    {
-      "name": "Sophia Bloomsbury",
-      "role": "Senior Travel Consultant",
-      "image": "Images/teammember2.png",
-      "bio": "Sophia specializes in personalized itineraries for adventure seekers, luxury travelers, and cultural explorers. Having visited over 40 countries, she brings firsthand experience to every trip she designs.",
-      "quote": "A great itinerary is like a great story—exciting, unpredictable, and full of surprises!",
-      "social": {
-        "twitter": "www.twitter.com",
-        "linkedin": "#",
-        "instagram": "#"
-      }
-    },
-    {
-      "name": "Ethan Reed",
-      "role": "Marketing Manager",
-      "image": "Images/teammember1.png",
-      "bio": "Ethan is the creative force behind Travel Planet's branding and social media, using storytelling and photography to inspire wanderlust in travelers worldwide.",
-      "quote": "Every journey has a story—our job is to help you tell yours.",
-      "social": {
-        "twitter": "www.twitter.com",
-        "linkedin": "#",
-        "instagram": "#"
-      }
-    },
-    {
-      "name": "Maddie Bray",
-      "role": "Customer Experience Manager",
-      "image": "Images/teammember6.png",
-      "bio": "Maddie ensures every traveler receives top-tier service before, during, and after their trip. Her background in customer relations makes her an expert in creating smooth, worry-free experiences.",
-      "quote": "It's not just about where you go—it's about how you feel when you get there.",
-      "social": {
-        "twitter": "www.twitter.com",
-        "linkedin": "#",
-        "instagram": "#"
-      }
+  {
+    "name": "Curtis Bennett",
+    "role": "Founder & CEO",
+    "image": "Images/teammember3.png",
+    "bio": "With over 15 years of experience in the travel industry, Curtis founded Travel Planet with a vision to change how people experience the world.",
+    "quote": "Travel is the only thing you buy that makes you richer.",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
     }
-  ]  
+  },
+  {
+    "name": "Lewis Sanders",
+    "role": "Head of Destinations",
+    "image": "Images/teammember4.png",
+    "bio": "Lewis has visited over 50 countries and brings his extensive knowledge of global destinations to curate our unique travel experiences.",
+    "quote": "The world is a book and those who do not travel read only one page.",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
+    }
+  },
+  {
+    "name": "Daniel Harrison",
+    "role": "Head Of Operations",
+    "image": "Images/teammember5.png",
+    "bio": "Daniel ensures that every Travel Planet trip runs smoothly, from logistics to customer experience. His expertise in hospitality management helps create stress-free journeys for travelers.",
+    "quote": "The best trips are the ones where you forget about time and just live in the moment.",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
+    }
+  },
+  {
+    "name": "Sophia Bloomsbury",
+    "role": "Senior Travel Consultant",
+    "image": "Images/teammember2.png",
+    "bio": "Sophia specializes in personalized itineraries for adventure seekers, luxury travelers, and cultural explorers. Having visited over 40 countries, she brings firsthand experience to every trip she designs.",
+    "quote": "A great itinerary is like a great story—exciting, unpredictable, and full of surprises!",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
+    }
+  },
+  {
+    "name": "Ethan Reed",
+    "role": "Marketing Manager",
+    "image": "Images/teammember1.png",
+    "bio": "Ethan is the creative force behind Travel Planet's branding and social media, using storytelling and photography to inspire wanderlust in travelers worldwide.",
+    "quote": "Every journey has a story—our job is to help you tell yours.",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
+    }
+  },
+  {
+    "name": "Maddie Bray",
+    "role": "Customer Experience Manager",
+    "image": "Images/teammember6.png",
+    "bio": "Maddie ensures every traveler receives top-tier service before, during, and after their trip. Her background in customer relations makes her an expert in creating smooth, worry-free experiences.",
+    "quote": "It's not just about where you go—it's about how you feel when you get there.",
+    "social": {
+      "twitter": "https://www.twitter.com",
+      "linkedin": "https://www.linkedin.com",
+      "instagram": "https://www.instagram.com"
+    }
+  }
+]  
